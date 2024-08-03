@@ -1,6 +1,6 @@
 ## Environment and Project Structure 
 
-Project Setup
+**Project Setup**
 * Create Project Directory Structure: Manually create the folders and files outlined above, or use a template script for automation.
 * Install Dependencies: Use pip install -r requirements.txt to install necessary packages.
 * Virtual Environment: It's recommended to use a virtual environment (e.g., venv, virtualenv, or poetry) to isolate project dependencies.
