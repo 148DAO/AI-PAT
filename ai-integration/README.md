@@ -59,8 +59,8 @@ This project is well-organized with a clear structure that promotes maintainabil
           * `src/pipeline/data_pipeline.py`: (Optional) Script for defining and running a data pipeline that performs data loading, processing, and model training/evaluation in a sequence.
 
 **Miscellaneous** (Folders):
-  * api/.gitkeep: Placeholder for API-related code (if applicable).
-  * tests/.gitkeep: Placeholder for test cases.
-  * training/.gitkeep: Placeholder for training scripts or data.
-  * fine-tune/.gitkeep: Placeholder for fine-tuning scripts or data.
-  * tasks/.gitkeep: Placeholder for task-specific scripts or data.
+  * `api/.gitkeep`: Placeholder for API-related code (if applicable).
+  * `tests/.gitkeep`: Placeholder for test cases.
+  * `training/.gitkeep`: Placeholder for training scripts or data.
+  * `fine-tune/.gitkeep`: Placeholder for fine-tuning scripts or data.
+  * `tasks/.gitkeep`: Placeholder for task-specific scripts or data.
