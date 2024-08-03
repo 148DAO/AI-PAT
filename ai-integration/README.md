@@ -1,4 +1,4 @@
-## Project Structure and Purpose
+## Environment and Project Structure 
 
 Project Setup
 * Create Project Directory Structure: Manually create the folders and files outlined above, or use a template script for automation.
