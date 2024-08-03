@@ -5,7 +5,6 @@ import os
 from pathlib import Path
 
 
-
 """Add or Modify the file/folder list below to create new files/folders in the same directory"""
 files = [
     f"Makefile", # A text file that contain instruction to build software
@@ -100,29 +99,6 @@ def create_files(file_list):
                 print(f"File is already present at: {filepath}")
     except:
         print("[ERROR] Failed to create files")
-
-
-
-# Function to create the folder structure 
-def create_folders(items):
-    """
-    Creates a folder structure based on a list of files and folders.
-
-    Args:
-        items: A list of strings representing files or folders. Files should have extensions, while folders should be simple names.
-    """
-    
-    try:
-        for item in items:
-            if "." in item:  # It's a file
-                file_path = Path(item)
-                file_path.parent.mkdir(parents=True, exist_ok=True)  # Create parent directories
-            else:  # It's a folder
-                folder_path = Path(item)
-                folder_path.mkdir(parents=True, exist_ok=True)
-    except: 
-        print("[ERROR] Failed to create folders")
-
 
 
 
