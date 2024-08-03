@@ -1,0 +1,67 @@
+# Core Libraries
+numpy==1.24.3
+pandas==2.0.1
+matplotlib==3.7.1
+scikit-learn==1.2.2
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.5.1
+transformers==4.28.1
+gensim==4.3.0
+textblob==0.17.1
+sentence_transformers==2.2.2
+huggingface_hub==0.16.4
+
+# Machine Learning
+tensorflow==2.12.0  # Or PyTorch
+keras==2.12.0  # If using Keras
+xgboost==1.7.3
+lightgbm==4.1.0
+catboost==1.2.0
+imbalanced_learn==0.10.1
+optuna==3.3.0
+hyperopt==0.2.7
+tensorflow_datasets==4.8.3
+torchvision==0.16.0
+
+# Data Handling and Processing
+dask==2023.11.1
+pyarrow==13.0.0
+vaex==5.1.0
+
+# Visualization
+plotly==5.15.0
+dash==2.11.0
+
+# Database
+sqlalchemy==2.0.13
+
+# Additional Utilities
+tqdm==4.66.1
+joblib==1.2.1
+pytest==7.4.2
+loguru==0.6.0
+pyyaml==6.0.1
+
+# Recommender Systems (if applicable)
+surprise==1.2.0
+implicit==0.5.0
+lightfm==1.1.6
+
+# Knowledge Graphs (if applicable)
+rdflib==6.3.3
+networkx==3.1
+
+# Audio/Video Processing (if applicable)
+librosa==0.11.2
+opencv-python==4.8.1
+ffmpeg  # Install using system package manager
+
+# Deployment (if applicable)
+# flask==2.3.2
+# django==4.2.7
+docker==5.2.0
+
+# Experiment Tracking (optional)
+mlflow==2.4.2
