@@ -1,5 +1,11 @@
 ## Project Structure and Purpose
 
+Project Setup
+* Create Project Directory Structure: Manually create the folders and files outlined above, or use a template script for automation.
+* Install Dependencies: Use pip install -r requirements.txt to install necessary packages.
+* Virtual Environment: It's recommended to use a virtual environment (e.g., venv, virtualenv, or poetry) to isolate project dependencies.
+* Additional Dependencies: If required packages are missing, add them to requirements.txt and make sure to commit changes to this repo.
+
 This project is well-organized with a clear structure that promotes maintainability and collaboration. Here's a breakdown of the key components and their purposes:
 
 **Essential Files**
